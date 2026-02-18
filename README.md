@@ -153,6 +153,15 @@ Framework:
 ## Results
 
 The trained model achieves high classification accuracy on the dataset.
+<br>
+<br>
+<br>
+<img width="1470" height="835" alt="Screenshot 2026-02-18 at 3 36 02 PM" src="https://github.com/user-attachments/assets/4c29b70f-f291-40c0-af5e-2077fdb22a60" />
+
+<br>
+<br>
+<br>
+<br>
 
 Deployment
 
