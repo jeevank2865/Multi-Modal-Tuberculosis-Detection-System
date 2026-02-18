@@ -154,7 +154,7 @@ Framework:
 
 The trained model achieves high classification accuracy on the dataset.
 
-Live Demo: https://multi-modal-tuberculosis-detection-system.streamlit.app
+Live Demo: https://multi-modal-tuberculosis-detection-system-vyjaztxp4wvsekcapp83.streamlit.app/
 <br>
 <br>
 <br>
