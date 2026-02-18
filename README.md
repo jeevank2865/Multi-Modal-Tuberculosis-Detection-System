@@ -18,7 +18,7 @@ This project is intended for **academic and educational purposes** and demonstra
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Theory of Recommendation Systems](#theory-of-recommendation-systems)
+- [Theory](#Theory)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dataset](#dataset)
