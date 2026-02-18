@@ -16,17 +16,16 @@ This project is intended for **academic and educational purposes** and demonstra
 ---
 
 ## Table of Contents
-- Overview
-- Features
-- Theory
-- Installation
-- Usage
-- Dataset
-- Model Architecture
-- Results
-- Deployment
-- Contributing
-- License
+- [Overview](#overview)
+- [Features](#features)
+- [Theory of Recommendation Systems](#theory-of-recommendation-systems)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dataset](#dataset)
+- [Model](#model)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
