@@ -82,6 +82,91 @@ Both modalities are processed separately and fused before classification.
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/jeevank2865/Multi-Modal-Tuberculosis-Detection-System.git
-cd Multi-Modal-Tuberculosis-Detection-System
+    ```bash
+    git clone https://github.com/jeevank2865/Multi-Modal-Tuberculosis-Detection-System.git
+    cd Multi-Modal-Tuberculosis-Detection-System
+    ```
+
+2. Create a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    ```
+3. Install required dependencies:
+   ```bash
+    pip install -r requirements.txt
+    ```
+4. Run the Streamlit app:
+   ```bash
+    streamlit run app.py
+    ```
+## Usage
+
+1. Launch the application:
+    ```bash
+    streamlit run app.py
+    ```
+2. Upload a Chest X-ray image
+   
+3. (Optional) Enter clinical details:
+	-	Age
+	-	Fever
+	-	Cough
+	-	Weight loss
+ -	
+4. Click Analyze Chest X-ray
+  	
+5. View:
+	-	Diagnosis (TB / Normal)
+	-	Confidence score
+
+## Dataset
+
+The project uses a publicly available Tuberculosis Chest X-ray Dataset from Kaggle.
+
+Dataset structure:
+	- TB images
+	-	Normal images
+
+Clinical data is synthetically generated for academic demonstration purposes.
+
+Dataset source: https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset
+
+## Model 
+
+	-	CNN Backbone: ResNet-based feature extractor
+	-	Clinical Network: Fully connected layers
+	-	Fusion Layer: Concatenates image & clinical features
+	-	Output: Binary classification (TB / Normal)
+
+Loss Function:
+	-	Cross Entropy Loss
+
+Optimizer:
+	-	Adam Optimizer
+
+Framework:
+	-	PyTorch
+  
+## Results
+
+The trained model achieves high classification accuracy on the dataset.
+
+Deployment
+
+The project is deployed using Streamlit Cloud.
+
+## Deployment steps:
+	- Push code and model to GitHub
+	-	Configure requirements.txt
+	-	Deploy via Streamlit Cloud dashboard
+	-	Access via public URLContributing
+
+## Contributions
+
+Possible future improvements:
+	-	Use real clinical datasets
+	-	Add severity classification
+	-	Improve explainability (Grad-CAM)
+	-	Integrate doctor feedback system
+	-	Add user authentication
