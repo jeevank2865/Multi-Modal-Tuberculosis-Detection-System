@@ -24,8 +24,9 @@ This project is intended for **academic and educational purposes** and demonstra
 - [Dataset](#dataset)
 - [Model](#model)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributing](#Contributions)
+- [Deployment](#Deployment)
+
 
 ---
 
@@ -157,16 +158,17 @@ Deployment
 The project is deployed using Streamlit Cloud.
 
 ## Deployment steps:
-	- Push code and model to GitHub
-	-	Configure requirements.txt
-	-	Deploy via Streamlit Cloud dashboard
-	-	Access via public URLContributing
+
+- Push code and model to GitHub
+- Configure requirements.txt
+- Deploy via Streamlit Cloud dashboard
+- Access via public URLContributing
 
 ## Contributions
 
 Possible future improvements:
-	-	Use real clinical datasets
-	-	Add severity classification
-	-	Improve explainability (Grad-CAM)
-	-	Integrate doctor feedback system
-	-	Add user authentication
+	- Use real clinical datasets
+	- Add severity classification
+	- Improve explainability (Grad-CAM)
+	- Integrate doctor feedback system
+	- Add user authentication
