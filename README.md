@@ -115,7 +115,7 @@ Both modalities are processed separately and fused before classification.
 	-	Fever
 	-	Cough
 	-	Weight loss
- -	
+ 	
 4. Click Analyze Chest X-ray
   	
 5. View:
