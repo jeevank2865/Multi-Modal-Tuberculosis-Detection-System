@@ -163,16 +163,16 @@ The trained model achieves high classification accuracy on the dataset.
 <br>
 <br>
 
-Deployment
+## Deployment
 
 The project is deployed using Streamlit Cloud.
 
-## Deployment
+ Deployment steps:
 
-- Push code and model to GitHub
-- Configure requirements.txt
-- Deploy via Streamlit Cloud dashboard
-- Access via public URLContributing
+	- Push code and model to GitHub
+	- Configure requirements.txt
+	- Deploy via Streamlit Cloud dashboard
+	- Access via public URLContributing
 
 ## Contributions
 
