@@ -24,8 +24,9 @@ This project is intended for **academic and educational purposes** and demonstra
 - [Dataset](#dataset)
 - [Model](#model)
 - [Results](#results)
-- [Contributing](#Contributions)
 - [Deployment](#Deployment)
+- [Contributing](#Contributions)
+
 
 
 ---
@@ -157,7 +158,7 @@ Deployment
 
 The project is deployed using Streamlit Cloud.
 
-## Deployment steps:
+## Deployment
 
 - Push code and model to GitHub
 - Configure requirements.txt
